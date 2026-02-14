@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+:root{
+    --fundo-principal: #e4e4e4;
+    --destaque: #ffffff;
+    --texto: rgb(49, 48, 48);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--fundo-principal);
+    color: var(--texto);
+}
+
+input{
+    cursor: pointer;
+}
+
+header{
+    background-color: var(--destaque);
+    display: flex;
+    max-width: 500px;
+    padding: 10px;
+    margin: 15px;
+}
+
+header > input{
+    background-color: green;
+    border: none;
+    flex: 0 0 none;
+}
+
+#alimentos, #bebidas, #limpeza, #outros{
+    background-color: var(--destaque);
+    max-width: 500px;
+    margin: 15px;
+}
+
+footer{
+    background-color: var(--destaque);
+    display: flex;
+    padding: 10px;
+    margin: 15px;
+}
+
+footer > input{
+    background-color: red;
+    border: none;
+}
