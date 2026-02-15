@@ -114,6 +114,11 @@ div#criar > form > label{
     font-size: 17px;
 }
 
+div#criar > form > input#nome, div#criar > form > select{
+    background-color: var(--fundo-principal);
+    border: 1px solid black;
+}
+
 div > form > input#adicionar{
     border: none;
     background-color: green;
