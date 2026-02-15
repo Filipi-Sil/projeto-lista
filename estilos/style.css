@@ -21,6 +21,14 @@ input{
     cursor: pointer;
 }
 
+header > input, footer > input{
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: auto;
+
+}
+
 header{
     background-color: var(--destaque);
     display: flex;
@@ -41,14 +49,45 @@ header > input{
     margin: 15px;
 }
 
+div#alimentos > h2{
+    background-color: green;
+    color: white;
+}
+
+div#bebidas > h2{
+    background-color: orangered;
+    color: white;
+}
+
+div#limpeza > h2{
+    background-color: aquamarine;
+    color: white;
+}
+
+div#outros > h2{
+    background-color: gray;
+    color: white;
+}
+
+div > h2{
+    padding: 5px;
+}
+
+div#criar{
+    background-color: var(--destaque);
+    color: var(--texto);
+}
+
 footer{
     background-color: var(--destaque);
     display: flex;
     padding: 10px;
     margin: 15px;
+    max-width: 500px;
 }
 
 footer > input{
     background-color: red;
     border: none;
+    text-align: end;
 }

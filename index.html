@@ -14,7 +14,7 @@
     </header>
     <main>
         <div id="alimentos">
-            <h2>Alimentos</h2>
+            <h2>Alimentos</h2>        
         </div>
         <div id="bebidas">
             <h2>Bebidas</h2>
@@ -25,9 +25,24 @@
         <div id="outros">
             <h2>Outros</h2>
         </div>
+        <div id="criar">
+            <h3>Adicionar Item</h3>
+            <form method="get" action="" autocomplete="off">
+                <label for="iitem">Nome do Produto</label>
+                <input type="text" name="item" id="iitem" required>
+                <label for="itipo">Qual é a seção do seu produto</label>
+                <select name="tipo" id="itipo">
+                    <option value="alimentos">Alimentos</option>
+                    <option value="bebidas">Bebidas</option>
+                    <option value="limpeza">Limpeza</option>
+                    <option value="outros">Outros</option>
+                </select>
+                <input type="submit" value="Adicionar">
+            </form>
+        </div>
     </main>
     <footer>
-        <p>Qualque ´pr</p>
+        <p>Total de Itens:</p>
         <input type="button" value="Limpar Lista">
     </footer>
 </body>
