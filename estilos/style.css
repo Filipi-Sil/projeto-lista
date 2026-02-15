@@ -78,7 +78,11 @@ div > h2{
 div#criar{
     background-color: var(--destaque);
     color: var(--texto);
-    max-width: 450px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 450px;
     height: 175px;
     display: none;
     margin: auto;

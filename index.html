@@ -29,11 +29,11 @@
         <div id="criar">
             <h3>Adicionar Item</h3>
             <input type="button" value="X" onclick="fechar()"> 
-            <form method="get" autocomplete="off">
-                <label for="iitem">Nome do item:</label>
-                <input type="text" name="item" id="iitem" required> <br>
-                <label for="itipo">Qual é a seção do seu item:</label>
-                <select name="tipo" id="itipo">
+            <form method="get" autocomplete="off" id="form">
+                <label for="nome">Nome do item:</label>
+                <input type="text" name="item" id="nome" required> <br>
+                <label for="categoria">Qual é a seção do seu item:</label>
+                <select name="tipo" id="categoria">
                     <option value="alimentos">Alimentos</option>
                     <option value="bebidas">Bebidas</option>
                     <option value="limpeza">Limpeza</option>

@@ -7,3 +7,4 @@ const dcriar = document.getElementById('criar')
 function fechar(){
     dcriar.style.display = 'none'
 }
+
