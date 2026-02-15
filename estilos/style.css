@@ -77,16 +77,28 @@ div > h2{
 div#criar{
     background-color: var(--destaque);
     color: var(--texto);
-    width: 450px;
+    max-width: 450px;
     height: 175px;
     display: flex;
     margin: auto;
     padding: 10px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#criar > input{
+    border: none;
+    background-color: red;
+    font-weight: bolder;
+    width: 20px;
+    height: 20px;
 }
 
 div#criar > h3{
     color: var(--texto);
-    font-size: 1.4em;
+    font-size: 1.7em;
 }
 
 div#criar > form > label{
@@ -99,6 +111,7 @@ div > form > input#adicionar{
     background-color: green;
     padding: 5px;
     color: white;
+    margin: 10px 0px;
 }
 
 footer{
