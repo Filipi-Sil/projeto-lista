@@ -79,7 +79,7 @@ div#criar{
     color: var(--texto);
     width: 450px;
     height: 175px;
-    display: block;
+    display: flex;
     margin: auto;
     padding: 10px;
 }
