@@ -6,6 +6,7 @@
     <title>Lista de Compras</title>
     <script src="https://kit.fontawesome.com/3377433aa7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos/style.css">
+    
 </head>
 <body>
     <header>
@@ -28,16 +29,16 @@
         <div id="criar">
             <h3>Adicionar Item</h3>
             <form method="get" action="" autocomplete="off">
-                <label for="iitem">Nome do Produto</label>
-                <input type="text" name="item" id="iitem" required>
-                <label for="itipo">Qual é a seção do seu produto</label>
+                <label for="iitem">Nome do item:</label>
+                <input type="text" name="item" id="iitem" required> <br>
+                <label for="itipo">Qual é a seção do seu item:</label>
                 <select name="tipo" id="itipo">
                     <option value="alimentos">Alimentos</option>
                     <option value="bebidas">Bebidas</option>
                     <option value="limpeza">Limpeza</option>
                     <option value="outros">Outros</option>
                 </select>
-                <input type="submit" value="Adicionar">
+                <input type="submit" value="Adicionar" id="adicionar">
             </form>
         </div>
     </main>

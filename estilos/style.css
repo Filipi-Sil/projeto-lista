@@ -15,6 +15,7 @@
 body{
     background-color: var(--fundo-principal);
     color: var(--texto);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 input{
@@ -50,17 +51,17 @@ header > input{
 }
 
 div#alimentos > h2{
-    background-color: green;
+    background-color: chartreuse;
     color: white;
 }
 
 div#bebidas > h2{
-    background-color: orangered;
+    background-color: darkorange;
     color: white;
 }
 
 div#limpeza > h2{
-    background-color: aquamarine;
+    background-color: mediumaquamarine;
     color: white;
 }
 
@@ -76,6 +77,28 @@ div > h2{
 div#criar{
     background-color: var(--destaque);
     color: var(--texto);
+    width: 450px;
+    height: 175px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+div#criar > h3{
+    color: var(--texto);
+    font-size: 1.4em;
+}
+
+div#criar > form > label{
+    color: var(--texto);
+    font-size: 17px;
+}
+
+div > form > input#adicionar{
+    border: none;
+    background-color: green;
+    padding: 5px;
+    color: white;
 }
 
 footer{
