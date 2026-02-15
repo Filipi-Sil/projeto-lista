@@ -80,7 +80,7 @@ div#criar{
     color: var(--texto);
     max-width: 450px;
     height: 175px;
-    display: flex;
+    display: none;
     margin: auto;
     padding: 10px;
     flex-wrap: wrap;

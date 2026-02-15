@@ -11,7 +11,7 @@
 <body>
     <header>
         <h1><i class="fa-solid fa-cart-shopping"></i>Lista de Compras</h1>
-        <input type="button" value="Adicionar Item">
+        <input type="button" value="Adicionar Item" onclick="aparecer()">
     </header>
     <main>
         <div id="alimentos">
@@ -28,8 +28,8 @@
         </div>
         <div id="criar">
             <h3>Adicionar Item</h3>
-            <input type="button" value="X"> 
-            <form method="get" action="" autocomplete="off">
+            <input type="button" value="X" onclick="fechar()"> 
+            <form method="get" autocomplete="off">
                 <label for="iitem">Nome do item:</label>
                 <input type="text" name="item" id="iitem" required> <br>
                 <label for="itipo">Qual é a seção do seu item:</label>
