@@ -1,13 +1,15 @@
+//Aparecer a tela de criar
 const dcriar = document.getElementById('criar')
 
  function aparecer(){
     dcriar.style.display = 'flex'
 }
-
+//Fechar a tela de criar
 function fechar(){
     dcriar.style.display = 'none'
 }
 
+//Criação do item
 const form = document.querySelector("#form");
 const inputNome = document.querySelector("#nome");
 const selectCategoria = document.querySelector("#categoria");

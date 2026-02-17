@@ -22,7 +22,7 @@ input{
     cursor: pointer;
 }
 
-header > input, footer > input{
+header > input{
     color: white;
     font-weight: bold;
     padding: 5px;
@@ -125,19 +125,4 @@ div > form > input#adicionar{
     padding: 5px;
     color: white;
     margin-top: 15px;
-}
-
-footer{
-    background-color: var(--destaque);
-    display: flex;
-    padding: 10px;
-    margin: 15px;
-    max-width: 500px;
-    border-radius: 5px;
-}
-
-footer > input{
-    background-color: red;
-    border: none;
-    text-align: end;
 }
