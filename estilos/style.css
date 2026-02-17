@@ -22,20 +22,12 @@ input, button{
     cursor: pointer;
 }
 
-header > input{
-    color: white;
-    font-weight: bold;
-    padding: 5px;
-    margin-left: auto;
-
-}
-
 header{
     background-color: var(--destaque);
     display: flex;
-    max-width: 500px;
+    min-width: 450px;
+    margin: 5px;
     padding: 10px;
-    margin: 15px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.466);
 }
@@ -44,11 +36,15 @@ header > input{
     background-color: green;
     border: none;
     flex: 0 0 none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: auto;
 }
 
 #alimentos, #bebidas, #limpeza, #outros{
     background-color: var(--destaque);
-    max-width: 500px;
+    min-width: 325px;
     margin: 15px;
 }
 
@@ -92,6 +88,7 @@ div#criar{
     justify-content: space-between;
     align-items: center;
     border-radius: 5px;
+    border: 1px solid black;
     text-align: start;
 }
 
@@ -131,9 +128,10 @@ div#criar > form > input#adicionar{
 div{
     text-align: center;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.466);
+    border-radius: 0px 0px 5px 5px;
 }
 
-div> div{
+div > div{
     box-shadow: none;
     padding: 3px;
     color: var(--texto);
