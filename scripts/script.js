@@ -41,7 +41,7 @@ function criarItem(item) {
       <input type="checkbox">
       <span>${item.nome}</span>
     </label>
-    <button onclick="removerItem(${item.id})">X</button>
+    <button id="remov" onclick="removerItem(${item.id})">X</button>
   `;
 
   document.getElementById(item.categoria).appendChild(div);
